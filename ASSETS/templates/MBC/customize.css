@@ -1,0 +1,50 @@
+/*
+
+  STYLE ..... Googlish white
+  SHAPE ..... Straight
+  CORNERS ... One corner rounded
+  COLORS .... Googly :-)
+
+  ----------------------------------------------------------------------
+
+
+
+*/
+
+
+:root {
+  /* BRAND ACCENT COLORS primary and secondary */
+  --spx-accent-color: rgb(255, 198, 9);
+  
+  /* PLATE 1 */
+  --spx-bgcol1-color: rgba(255, 255, 255, 0.781);
+  --spx-txcol1-color: rgb(0, 0, 0);
+  --spx-txsha1-color: rgba(179, 190, 27, 0.733);
+  
+  /* PLATE 2 */
+  --spx-bgcol2-color: rgb(143, 34, 7);
+  --spx-txcol2-color: rgb(255, 255, 255);
+  --spx-txsha2-color: rgba(255, 255, 255, 0.5);
+
+  /* PLATE 3 */ 
+  --spx-bgcol3-color: rgba(236, 230, 197, 0.856);
+  --spx-txcol3-color: rgb(47, 47, 47);
+  --spx-txsha3-color: rgba(8, 37, 71, 0.2);
+
+  /* SKEW degrees for angled backgrounds (try also negative values, such as -15deg)*/
+  --skew-amount-degs: -0deg;
+  
+  /* ROUNDING VALUES for backgrounds */
+  --rounding-first:  0.0em;
+  --rounding-second: 0.0em;
+  
+}
+
+
+@font-face { font-family: "UI-Light";   src: url("fonts/EncodeSansSemiExpanded-Light.ttf");  }
+@font-face { font-family: "UI-Regular"; src: url("fonts/EncodeSansSemiExpanded-Regular.ttf");  }
+@font-face { font-family: "UI-Bold";    src: url("fonts/EncodeSansSemiExpanded-Bold.ttf"); }
+@font-face { font-family: "UI-Black";   src: url("fonts/EncodeSansSemiExpanded-Black.ttf");   }
+
+
+
